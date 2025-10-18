@@ -2,6 +2,7 @@
 const FILE_CONFIG = {
     // 格式: "密码": "文件名"
     "123": "file1.txt",
+    "456": "立体几何.docx",
     "user002456": "file2.docx",
     "user003789": "file3.xlsx",
     // ... 继续添加其他37个映射
