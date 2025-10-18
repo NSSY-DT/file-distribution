@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文件分发系统</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>文件下载系统</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="password">请输入访问密码：</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn">获取文件</button>
+            </form>
+            <div id="message" class="message"></div>
+            <div id="downloadSection" class="download-section" style="display: none;">
+                <h3>您的文件已就绪</h3>
+                <a id="downloadLink" class="download-btn" download>下载文件</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
